@@ -13,7 +13,7 @@ In our study we want to analyse how the **customer-company relationship impacts 
 
 ## Getting Started
 
-First of all, you need to download all the files from the [Database](https://github.com/SarahBuechner/DMML2019_Team_Google/tree/master/Database/Database) folder `AAL.csv`, `DAL.csv`, `LUV.csv`, `UAL.csv` and `Tweets.csv`. If you prefer, you can use the URL provided in the section **Databases links**.
+First of all, you need to download all the files from the [Database](https://github.com/SarahBuechner/DMML2019_Team_Google/tree/master/Database/Database) folder `AAL.csv`, `DAL.csv`, `LUV.csv`, `UAL.csv` and `Tweets.csv`. If you prefer, you can use the URL provided in the section **Databases links**. 
  
 ### Prerequisites
 
@@ -30,6 +30,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
+Once you complete that, you can running on your local machine the notebook `DM_Project.ipynb` for development and testing purposes.
+
 
 ## Database
 
@@ -60,6 +62,19 @@ We will use this two datasets:
 * __Close__: Close price.
 * __Adj Close__: Adjusted close price.
 * __Volume__: Daily volume.
+
+
+## Notebook 
+Find below the structure of the [Notebook](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/DM_Project.ipynb)
+1) Exploratory Data Anlysis
+1.1) Sentiment Analysis by Airline: We want to visualize the distribution sentiment analysis by company
+
+
+2) Data Mining and Machine Learning
+#
+# We want to visualize the distribution sentiment analysis by company.
+
+
 
 ### Databases links
 
