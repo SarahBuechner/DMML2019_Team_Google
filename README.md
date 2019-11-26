@@ -67,13 +67,18 @@ We will use this two datasets:
 ## Notebook 
 Find below the structure of the [Notebook](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/DM_Project.ipynb)
 1) Exploratory Data Anlysis
-1.1) Sentiment Analysis by Airline: We want to visualize the distribution sentiment analysis by company
+
+1.1) Sentiment Analysis by Airline:
+![Distribution Sentiment by Airline](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.1_Sentiment_Anlysis.png)
+This graph allows us to see that the most common class is negative mood = 62.69\text{\%}.
+
+1.2) Negative ratings classified on topics
+![Negative Ratings classification](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.2_Negative_Ratings_Topics.png)
+In the previous chart we saw that the most common class was the Negative mood. This graph, shows what are the most common negative topics among airlines.
 
 
 2) Data Mining and Machine Learning
-#
-# We want to visualize the distribution sentiment analysis by company.
-
+***TO DO***
 
 
 ### Databases links
