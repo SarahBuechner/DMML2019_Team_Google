@@ -70,7 +70,7 @@ Find below the structure of the [Notebook](https://github.com/SarahBuechner/DMML
 ### 1) Exploratory Data Anlysis
 
 #### 1.1) Sentiment Analysis by Airline:
-![Distribution Sentiment by Airline](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.1_Sentiment_Analysis.png)
+![Distribution Sentiment by Airline](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.1_Sentiment_Analysis.png)\
 This graph allows us to see that the most common class is negative mood = 62.69%.
 
 #### 1.2) Negative ratings classified on topics
