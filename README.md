@@ -11,6 +11,24 @@ In our study we want to analyse how the **customer-company relationship impacts 
 3. Outside of sentiment, what other systematic variation exists in the tweets about different airlines?
 4. What types of tweets on airlines tend to be retweeted?
 
+## Getting Started
+
+
+### Prerequisites
+
+Before start, you must to **install the software the `Plotnine` package* which is an implementation of a grammar of graphics in Python based on ggplot2. The grammar allows users to compose plots by explicitly mapping data to the visual objects that make up the plot. You can implement the following command:
+
+```python
+!pip install 'plotnine[all]'
+```
+
+Also, it is required to import the following packages: `pandas`, `numpy`, `matplotlib.pyplot` and `seaborn`. You can copy and paste the code provided below.
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
 
 ## Database
 
@@ -25,7 +43,7 @@ We will use this two datasets:
 * __Airline_sentiment_confidence__: Logistic regression (Since values form 0 to 1)
 * __Negativereason__: Negative topic (i.e.: delay, bad flight, customer service…)
 * __Airline__: The Airline’s name (American Airlines, United Airlines, US Airways Southwest, Delta and Virgin America)
-* _Name__: The user’s account name (Some users tweeted more than once)
+* __Name__: The user’s account name (Some users tweeted more than once)
 * __Retweet_count__: Number of the retweets
 * __Text__: The tweet
 * __Tweet_coord__: Coordinations of the tweet
