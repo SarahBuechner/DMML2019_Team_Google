@@ -1,4 +1,4 @@
-# Sentiment Analysis gathered in Twitter? (Team GoogleProject)
+# Sentiment Analysis gathered in Twitter
 
 ## Abstract
 
@@ -6,9 +6,12 @@ In our study we want to analyse how the **customer-company relationship impacts 
 
 Nowadays, companies need to deal and solve issues with customers on social media. Needless to say, a non-solved negative tweet may turn viral in a couple of hours compromising the whole firm's reputation. From a **business perspective**, the company needs to **prioritize which customer needs to be replied firstly**. At first glance, one may think this priority have to be based on ticket price however this information cannot be inferred *(We will try to deanonymized it using the account_name)*.
 
-The **first solution** purposed regarding the limitation presented in the dataset, is to **classify tweets into** two classes: **business class** *(referred as BC)* and **non-business class** *(referred as NBC)* using the tweet text content. For instance, we consider that all tweets containing "business class", "first class", "priority" are customers who bought a business class ticket. 
+The **first solution** purposed, regarding the limitations presented in the dataset, is to **classify tweets into** two classes: **business class** *(referred as BC)* and **non-business class** *(referred as NBC)* using the tweet text content. For instance, we consider that all tweets containing "business class", "first class", "priority" are customers who bought a business class ticket. 
 
-Once we filtered all the negative tweets from the dataset and pick those that belongint to BC group, we implement an algorithm to compute the polarity of each passanger reponse
+Once we filtered all the negative tweets from the dataset and pick those belonging to BC group, we implement an algorithm to sort by the **tweet's polarity** *(range value from -1.0 to 1.0, where 0 indicates neutral, +1 indicates a very positive sentiment and -1 represents a very negative sentiment).* Using this approach, we can offer an objective solution to manage complaints on social media.
+
+The **second solution** to deal with that, is to figure out what is **the scope of the tweet**. For instance, if the **account is verified**, or the complaint is made by a **popular account** *(with a lot of followers)* the complaint needs to be address  with a priority. *(NOT IMPLEMENTED, since we are struggling with web-data-scraping)*
+
 
 
 ### Some exploratory ideas on this:
