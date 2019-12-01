@@ -68,9 +68,10 @@ We will use this two datasets:
 
 ### Kaggle Database
 
+#### Original features:
 * __Tweet_id__: The primary key
-* __Airline_sentiment__: Positive or negative (boolean)
-* __Airline_sentiment_confidence__: Logistic regression (Since values form 0 to 1)
+* __Airline_sentiment__: Positive, neutral or negative.
+* __Airline_sentiment_confidence__: We think it is the % of surveyed who classified tweet as shwon in the Airline_sentiment column.
 * __Negativereason__: Negative topic (i.e.: delay, bad flight, customer service…)
 * __Airline__: The Airline’s name (American Airlines, United Airlines, US Airways Southwest, Delta and Virgin America)
 * __Name__: The user’s account name (Some users tweeted more than once)
@@ -79,6 +80,13 @@ We will use this two datasets:
 * __Tweet_coord__: Coordinations of the tweet
 * __Tweet_created__: When the tweet was created (timestamp)
 * __Tweet_location__: Location of the tweet (i.e.: Los Angeles, San Francisco…)
+
+#### Created features:
+* __Tweet_polarity__: Float value within the range [-1.0 to 1.0] where +1 is a very positive sentiment and -1 a very negative sentiment.
+* __Tweet_subjectivity__: Float value within the range [0.0 to 1.0] where 0.0 is very objective and 1.0 is very subjective.
+* __Group_class__: Business class or non-business class.
+* __Account_verified__: Positive or negative (boolean)
+* __Account_popularity__: Number of followers
 
 ### Yahoo Database
 
