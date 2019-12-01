@@ -9,9 +9,9 @@ Nowadays, companies need to deal and solve issues with customers on social media
 
 The **first solution** purposed, regarding the limitations presented in the dataset, is to **classify tweets into** two classes: **business class** *(referred as BC)* and **non-business class** *(referred as NBC)* using the tweet text content. For instance, we consider that all tweets containing "business class", "first class", "priority" are customers who bought a business class ticket. 
 
-Once we filtered all the negative tweets from the dataset and pick those belonging to BC group, we implement an algorithm to sort by the **tweet's polarity** *(range value from -1.0 to 1.0, where 0 indicates neutral, +1 indicates a very positive sentiment and -1 represents a very negative sentiment).* Using this approach, we can offer an objective solution to manage complaints on social media.
-
 The **second solution** to deal with that, is to figure out what is **the scope of the tweet**. For instance, if the **account is verified**, or the complaint is made by a **popular account** *(with a lot of followers)* the complaint needs to be address  with a priority. *(NOT IMPLEMENTED, since we are struggling with web-data-scraping)*
+
+Once all the negative tweets are filtered from the dataset and pick those belonging to BC group, we proceed to implement an algorithm which sorts using the **tweet's polarity** *(range value from -1.0 to 1.0, where 0 indicates neutral, +1 indicates a very positive sentiment and -1 represents a very negative sentiment).* Using this approach, we can offer an objective solution to manage complaints on social media.
 
 </dt>
 
