@@ -136,7 +136,7 @@ The draw_wordcloud function allows the user to show the `drawcloud` according th
 
 ### 2) Data Mining and Machine Learning
 #### 2.1) Filter tweets function
-The function filter_tweets allows the user to tokenize the tweet removing the noise:
+The function `filter_tweets allows` the user to tokenize the tweet removing the noise:
 Tokens removed:
 - Stop words
 - Punctuation
@@ -145,10 +145,10 @@ Tokens removed:
 
 
 #### 2.2) Search group function
-The function search_group_classes allows the user to classify tweets by passangers classes. The first approach is to classify into 2 classes: business class and not business class only using the tweet text (i.e.: type of words in the tweet, orthography, etc.)
+The function `search_group_classes` allows the user to classify tweets by passangers classes. The first approach is to classify into 2 classes: business class and not business class only using the tweet text (i.e.: type of words in the tweet, orthography, etc.)
 
 #### 2.3) Tweet sentiment analysis
-The function tweet_sentiment_analysis computes the sentiment analysis of each tweet polarity and subjectivity and then sorts the bunch of tweets based on the polarity level of the tweet (NOT IMPLEMENTED)
+The function `tweet_sentiment_analysis` computes the sentiment analysis of each tweet polarity and subjectivity and then sorts the bunch of tweets based on the polarity level of the tweet (NOT IMPLEMENTED)
 
 ### Databases links
 
