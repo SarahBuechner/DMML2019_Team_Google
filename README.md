@@ -1,8 +1,15 @@
-# Is it possible to forecast the stock price based on the Sentiment Analysis gathered in Twitter? (Team GoogleProject)
+# Sentiment Analysis gathered in Twitter? (Team GoogleProject)
 
 ## Abstract
 
-In our study we want to analyse how the **customer-company relationship impacts on the revenue** of each company as well as on the stock market. We will try to demonstrate empirically whether a **negative sentiment analysis on Twitter** for a given airline impacts negatively the stock price and vice versa.
+In our study we want to analyse how the **customer-company relationship impacts on the revenue** of each company as well as on the stock market. We will try to demonstrate empirically whether a **negative sentiment analysis on Twitter** for a given airline affects negatively the stock price and vice versa.
+
+Nowadays, companies need to deal and solve issues with customers on social media. Needless to say, a non-solved negative tweet may turn viral in a couple of hours compromising the whole firm's reputation. From a **business perspective**, the company needs to **prioritize which customer needs to be replied firstly**. At first glance, one may think this priority have to be based on ticket price however this information cannot be inferred *(We will try to deanonymized it using the account_name)*.
+
+The **first solution** purposed regarding the limitation presented in the dataset, is to **classify tweets into** two classes: **business class** *(referred as BC)* and **non-business class** *(referred as NBC)* using the tweet text content. For instance, we consider that all tweets containing "business class", "first class", "priority" are customers who bought a business class ticket. 
+
+Once we filtered all the negative tweets from the dataset and pick those that belongint to BC group, we implement an algorithm to compute the polarity of each passanger reponse
+
 
 ### Some exploratory ideas on this:
 
