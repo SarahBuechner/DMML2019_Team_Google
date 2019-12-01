@@ -27,21 +27,35 @@ Once all the negative tweets are filtered from the dataset and pick those belong
 ## Getting Started
 
 First of all, you need to download all the files from the [Database](https://github.com/SarahBuechner/DMML2019_Team_Google/tree/master/Database/Database) folder `AAL.csv`, `DAL.csv`, `LUV.csv`, `UAL.csv` and `Tweets.csv`. If you prefer, you can use the URL provided in the section **Databases links**. 
+
+```python
+tweets = pd.read_csv("https://raw.githubusercontent.com/SarahBuechner/DMML2019_Team_Google/master/Database/Tweets.csv")
+```
  
 ### Prerequisites
 
-Before start, you must to **install the software the** `Plotnine` **package** which is an implementation of a grammar of graphics in Python based on ggplot2. The grammar allows users to compose plots by explicitly mapping data to the visual objects that make up the plot. You can implement the following command:
+Before start, you must to **install the software the** `Plotnine` **package** which is an implementation of a grammar of graphics in Python based on ggplot2. The grammar allows users to compose plots by explicitly mapping data to the visual objects that make up the plot. The `spacy` and the english language `-m spacy download en` packages used in the tweet *tokenization* process. Then `-U textblob` and `-m textblob.download_corpora` packages which enable to compute the *polarity* and *subjectivity* level of the tweet content. To install all packages is the following command:
 
 ```python
 !pip install 'plotnine[all]'
+!pip install spacy
+!python -m spacy download en
+!pip install -U textblob
+!python -m textblob.download_corpora
 ```
 
-Also, it is required to import the following packages: `pandas`, `numpy`, `matplotlib.pyplot` and `seaborn`. You can copy and paste the code provided below.
+Also, it is required to import the following packages: `pandas`, `numpy`, `matplotlib.pyplot`, `seaborn`, `re`, `English`, `TextBlob` and `wordcloud`. You can copy and paste the code provided below.
+
 ```python
 import pandas as pd
 import numpy as np
+from plotnine import *
 import matplotlib.pyplot as plt
 import seaborn as sns
+import re
+from spacy.lang.en import English
+from textblob import TextBlob
+from wordcloud import WordCloud,STOPWORDS
 ```
 Once you complete that, you can running on your local machine the notebook `DM_Project.ipynb` for development and testing purposes.
 
