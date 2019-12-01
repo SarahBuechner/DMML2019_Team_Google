@@ -124,13 +124,31 @@ The 3 main negative topics of Virgin America are: (1) Customer Service Issue, (2
 This graph captures the volume tweet distribution grouped by week days. On Sunday it is when more tweets are released.
 
 #### 1.4) Tweet volum per hour
-This graph captures the volume tweet distribution per hour.
+This graph captures the volume tweet distribution per hour. As we expected, during night hours the volume is low and during day hours the volume is high. This chart can be useful to depict when the company expects to receive more complaints and therefore be more aware when more labour force will be needed to manage social media sites.
 
-![Distribution tweet volume](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.3_Tweet_Volum_DayHour.png)\
+![Distribution tweet volume](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.3_Tweet_Volum_DayHour.png)
+
+#### 1.5) Stock market
+*Not implemented yet*
+
+#### 1.6) Word cloud
+The draw_wordcloud function allows the user to show the `drawcloud` according the sentiment analysis
 
 ### 2) Data Mining and Machine Learning
-(***TO DO***)
+#### 2.1) Filter tweets function
+The function filter_tweets allows the user to tokenize the tweet removing the noise:
+Tokens removed:
+- Stop words
+- Punctuation
+- Tokens with less than 3 characters
+- Tokens containing a non alphabet character (i.e. "/", "@", etc.)
 
+
+#### 2.2) Search group function
+The function search_group_classes allows the user to classify tweets by passangers classes. The first approach is to classify into 2 classes: business class and not business class only using the tweet text (i.e.: type of words in the tweet, orthography, etc.)
+
+#### 2.3) Tweet sentiment analysis
+The function tweet_sentiment_analysis computes the sentiment analysis of each tweet polarity and subjectivity and then sorts the bunch of tweets based on the polarity level of the tweet (NOT IMPLEMENTED)
 
 ### Databases links
 
