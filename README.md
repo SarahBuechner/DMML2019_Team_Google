@@ -108,9 +108,25 @@ Find below the structure of the [Notebook](https://github.com/SarahBuechner/DMML
 ![Distribution Sentiment by Airline](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.1_Sentiment_Analysis.png)\
 This graph allows us to see that the most common class is negative mood = 62.69%.
 
-#### 1.2) Negative ratings classified on topics
-![Negative Ratings classification](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.2_Negative_Ratings_Topics.png)\
+#### 1.2) Negative Reason by Airline¶
 In the previous chart we saw that the most common class was the Negative mood. This graph, shows what are the most common negative topics among airlines.
+
+```python
+# TO DO: Create a Table
+"""The 3 main negative topics of American are: (1) Customer Service Issue, (2) Late Flight and (3) Cancelled Flight
+The 3 main negative topics of Delta are: (1) Late Flight, (2) Customer Service Issue and (3) Can't Tell
+The 3 main negative topics of Southwest are: (1) Customer Service Issue, (2) Cancelled Flight and (3) Can't Tell
+The 3 main negative topics of US Airways are: (1) Customer Service Issue, (2) Late Flight and (3) Can't Tell
+The 3 main negative topics of United are: (1) Customer Service Issue, (2) Late Flight and (3) Can't Tell
+The 3 main negative topics of Virgin America are: (1) Customer Service Issue, (2) Flight Booking Problems and (3) Can't Tell"""
+```
+#### 1.3) Tweet volum per day
+This graph captures the volume tweet distribution grouped by week days. On Sunday it is when more tweets are released.
+
+#### 1.4) Tweet volum per hour
+This graph captures the volume tweet distribution per hour.
+
+![Distribution tweet volume](https://github.com/SarahBuechner/DMML2019_Team_Google/blob/master/Images/1.3_Tweet_Volum_DayHour.png)\
 
 ### 2) Data Mining and Machine Learning
 (***TO DO***)
