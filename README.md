@@ -140,5 +140,8 @@ We will use this two datasets:
 * [United Airlines Holdings, Inc. (UAL)](https://finance.yahoo.com/quote/UAL/history?period1=1422745200&period2=1451516400&interval=1d&filter=history&frequency=1d)
 * [Southwest Airlines Co. (LUV)](https://finance.yahoo.com/quote/LUV/history?period1=1422745200&period2=1451516400&interval=1d&filter=history&frequency=1d)
 
+### Project Video
+* [Youtube](https://www.youtube.com/watch?v=21sN_u5lcng)
+
 ## Authors
 * **Pau Gallardo** - **Sara Büchner** - **Bhavya Sabesa** - **Ibrahim Ounon**  -  [Github Repository Team Google](https://github.com/SarahBuechner/DMML2019_Team_Google.git)
